@@ -1,0 +1,6 @@
+*~
+ebin/*
+*.rel
+*.script
+*.boot
+start.sh

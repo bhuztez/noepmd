@@ -1,0 +1,5 @@
+start Erlang without standalone epmd (proof of concept)
+
+rebar compile
+escript make_boot.erl
+bash start.sh

@@ -1,0 +1,14 @@
+{application, noepmd,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {registered, [noepmd_sup]},
+  {included_applications, [erlpmd]},
+  {applications,
+   [ kernel,
+     stdlib
+   ]},
+  {mod, {noepmd_app, []}},
+  {env, []}
+ ]
+}.
